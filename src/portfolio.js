@@ -23,10 +23,10 @@ const greeting = {
   username: "Harnoor",
   title: "Hello, I'm Harnoor Singh Birdi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Reactjs / Nodejs / Flutter and some other cool libraries and frameworks."
+    "A passionate Computer Science student 🚀 ,eager to explore the digital world"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zJD_B1Qk_0_gA6mdc1blltwhUwGH7qD_/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,15 +44,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Who I am",
+  subTitle: "GUY WHO WANTS TO EXPLORE EVERY TECH",
   skills: [
     emoji(
-      "⚡ Develop Front end / Back end for web and Android applications"
+      "⚡ Develop web and Android applications"
     ),
     
     emoji(
-      "⚡ Integration of third party services such as Firebase / MongoDB"
+      "⚡ Explore Cybersecurity for knowledge and Fun"
     )
   ],
 
@@ -127,7 +127,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Data Structures and Algorithms",
@@ -178,6 +178,18 @@ const bigProjects = {
   title: "Projects I worked on:",
   projects: [
     {
+      image: require("./assets/images/handshake.png"),
+      projectName: "Client Hello-Capture",
+      projectDesc: "The application allows you to find out what HTTPS websites are being accessed in the network, see and store data usage. Built using C++, Makefile and MySQL.",
+      footerLink: [
+        {
+          name: "View on Github",
+          url: "https://github.com/Harnoor007/HelloCapture"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/tr-tck.png"),
       projectName: "Training Tracker GNDEC",
       projectDesc: "Developed a comprehensive group project aimed at efficiently managing and organizing data pertaining to students' training, internship, and placement experiences, streamlining the process for enhanced administration and accessibility.",
@@ -213,6 +225,26 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Flipkart GRiD 6.0",
+      subtitle:
+        "Qualified Flipkart GRiD 6.0 in Information Security domain level 1, ranking among top teams all over India.",
+      image: require("./assets/images/flip.png"),
+      imageAlt: "Certificate",
+      footerLink: [
+        
+      ]
+    },
+    {
+      title: "CISCO Networking Basics",
+      subtitle:
+        "Certified by CISCO Networking Academy for clearing Networking Basics course.",
+      image: require("./assets/images/cisco.png"),
+      imageAlt: "Certificate",
+      footerLink: [
+        
+      ]
+    },
+    {
       title: "Infosys Springboard React Certification",
       subtitle:
         "Cleared Infosys Springboard react developer test.",
@@ -222,16 +254,16 @@ const achievementSection = {
         
       ]
     },
-    {
-      title: "Gen AI Certification",
-      subtitle:
-        "Certification in Introduction to Generative AI offered by Google Cloud on Coursera Platform.",
-      image: require("./assets/images/genai.png"),
-      imageAlt: "Certificate",
-      footerLink: [
+    // {
+    //   title: "Gen AI Certification",
+    //   subtitle:
+    //     "Certification in Introduction to Generative AI offered by Google Cloud on Coursera Platform.",
+    //   image: require("./assets/images/genai.png"),
+    //   imageAlt: "Certificate",
+    //   footerLink: [
         
-      ]
-    }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
