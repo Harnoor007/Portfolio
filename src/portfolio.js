@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Computer Science student 🚀 ,eager to explore the digital world"
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EOA74nO0Gt_WpamJ_ZgHyMbu93CaSGOv/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,9 +50,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop web and Android applications"
     ),
-    
+
     emoji(
-      "⚡ Explore Cybersecurity for knowledge and Fun"
+      "⚡ Explore Computers for knowledge and Fun"
     )
   ],
 
@@ -87,7 +87,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
-    },  
+    },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -131,15 +131,15 @@ const techStack = {
   experience: [
     {
       Stack: "Data Structures and Algorithms",
-      progressPercentage: "100%" 
+      progressPercentage: "100%"
     },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "100%" 
+      progressPercentage: "100%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "100%" 
+      progressPercentage: "100%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,17 +148,15 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering intern",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Assistant Software Engineer",
+      company: "Wits Innovation Lab",
+      // companylogo: require("./assets/images/wits_logo.png"),
+      date: "Jan 2025 – Present",
+      desc: "Developed RESTful APIs, implemented role-based access control and JWT authentication, integrated Nodemailer for email workflows, applied AJV validation for schema enforcement, wrote unit and integration tests with Jest, implemented server-sent events using cron, built dynamic dashboards, created invoice generation microservices, and used Postman for API testing and documentation.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
   ]
@@ -221,7 +219,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  
+
 
   achievementsCards: [
     {
@@ -231,7 +229,7 @@ const achievementSection = {
       image: require("./assets/images/flip.png"),
       imageAlt: "Certificate",
       footerLink: [
-        
+
       ]
     },
     {
@@ -241,7 +239,7 @@ const achievementSection = {
       image: require("./assets/images/cisco.png"),
       imageAlt: "Certificate",
       footerLink: [
-        
+
       ]
     },
     {
@@ -251,7 +249,7 @@ const achievementSection = {
       image: require("./assets/images/info.png"),
       imageAlt: "Certificate",
       footerLink: [
-        
+
       ]
     },
     // {
@@ -261,7 +259,7 @@ const achievementSection = {
     //   image: require("./assets/images/genai.png"),
     //   imageAlt: "Certificate",
     //   footerLink: [
-        
+
     //   ]
     // }
   ],
@@ -276,7 +274,7 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    
+
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -317,7 +315,9 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
+  resumeLink:
+    "https://drive.google.com/file/d/1EOA74nO0Gt_WpamJ_ZgHyMbu93CaSGOv/view",
 };
 
 const contactInfo = {
