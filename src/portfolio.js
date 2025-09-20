@@ -175,18 +175,18 @@ const openSource = {
 const bigProjects = {
   title: "Projects I worked on:",
   projects: [
-    {
-      image: require("./assets/images/handshake.png"),
-      projectName: "Client Hello-Capture",
-      projectDesc: "The application allows you to find out what HTTPS websites are being accessed in the network, see and store data usage. Built using C++, Makefile and MySQL.",
-      footerLink: [
-        {
-          name: "View on Github",
-          url: "https://github.com/Harnoor007/HelloCapture"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+    // {
+    //   image: require("./assets/images/handshake.png"),
+    //   projectName: "Client Hello-Capture",
+    //   projectDesc: "The application allows you to find out what HTTPS websites are being accessed in the network, see and store data usage. Built using C++, Makefile and MySQL.",
+    //   footerLink: [
+    //     {
+    //       name: "View on Github",
+    //       url: "https://github.com/Harnoor007/HelloCapture"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
       image: require("./assets/images/tr-tck.png"),
       projectName: "Training Tracker GNDEC",
